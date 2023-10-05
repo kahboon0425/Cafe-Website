@@ -1,0 +1,295 @@
+ <!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>My 2nd Web</title>
+	<link rel="stylesheet" type="text/css" href="2nd Web CSS.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	
+	
+<!--for smooth scrolling-->	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!--for smooth scrolling-->
+	
+</head>
+
+<body>
+	<section id="background">
+		<img src="logo.png" class="logo">
+		
+		<div class="Company-Name">
+			<h1>Mood Cafe</h1>
+			<p>Good Cake = Good Mood</p>
+			
+		<div class="main-button">	
+			<a href="#"><span></span>Find Out</a>
+			<a href="#"><span></span>Read More</a>
+		</div>
+			
+		</div>
+	</section>
+	
+	<div id="sideNav">
+	<nav>
+	<ul>
+		<li><a href="#background">HOME</a></li>
+		<li><a href="#feature">FEATURES</a></li>
+		<li><a href="#service">SERVICES</a></li>
+		<li><a href="#testimonial">TESTIMONIALS</a></li>
+		<li><a href="#footer">MEET US</a></li>
+	</ul>	
+	</nav>
+	</div>
+	
+	<div id="menuBtn">
+		<img src="menu icon.png" id="menu">
+	
+	</div>
+<!--Page 2 Features-->
+	<section id="feature">
+		<div class="title-text">
+			<p>FEATURES</p>
+			<h1>Why Choose Us</h1>	
+		</div>
+		
+		<div class="feature-box">
+			<div class="feature">
+				
+				<h1>Experienced Staff</h1>
+				
+			<div class="feature-desc">
+				<div class="feature-icon">
+					<i class="fa fa-shield"></i>
+				</div>
+				<div class="feature-text">
+					<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. </p>
+				</div>
+				</div>	 
+				
+				<h1>Pre Booking Online</h1>
+				
+			<div class="feature-desc">
+				<div class="feature-icon">
+					<i class="fa fa-check-square-o"></i>
+				</div>
+				<div class="feature-text">
+					<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. </p>
+				</div>
+				</div>	
+				
+				<h1>Affordable Cost</h1>
+				
+			<div class="feature-desc">
+				<div class="feature-icon">
+					<i class="fa fa-inr"></i>
+				</div>
+				<div class="feature-text">
+					<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. </p>
+				</div>
+				</div>	 
+				
+			</div>
+			
+			<div class="feature-img">
+				<img src="barber-man.jpg">   
+			</div>
+		
+		</div>
+	</section>
+	
+<!--Page 3 Service-->
+	<section id="service">
+		<div class="title-text">
+			<p>SERVICES</p>
+			<h1>We Provide Better</h1>	
+		</div>
+		
+		<div class="service-box">
+			<div class="single-service">
+				<img src="Cake 1.jpg">
+				<div class="overlay"></div>
+				
+				<div class="service-desc">
+				<h3>Cake Roll</h3>
+				<hr>
+				<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add.</p>
+				</div>
+				
+			</div>
+			
+			<div class="single-service">
+				<img src="Cake 2.jpg">
+				<div class="overlay"></div>
+				
+				<div class="service-desc">
+				<h3>Cake Roll</h3>
+				<hr>
+				<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add.</p>
+				</div>
+				
+			</div>
+			
+			<div class="single-service">
+				<img src="Cake 3.jpg">
+				<div class="overlay"></div>
+				
+				<div class="service-desc">
+				<h3>Cake Roll</h3>
+				<hr>
+				<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add.</p>
+				</div>
+				
+			</div>
+			
+			<div class="single-service">
+				<img src="Cake 4.jpg">
+				<div class="overlay"></div>
+				
+				<div class="service-desc">
+				<h3>Cake Roll</h3>
+				<hr>
+				<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add.</p>
+				</div>
+				
+			</div>
+	
+		</div>
+	</section>
+	
+<!--Testimonial page 4-->
+	
+<section id="testimonial">
+	<div class="title-text">
+			<p>TESTIMONIAL</p>
+			<h1>What Client Says</h1>	
+	</div>
+	 <div class="testimonial-row">
+		<div class="testimonial-col">
+			
+			<div class="user">
+				<img src="People 1.jpg">
+				<div class="user-info">
+					<h4>IRENE <i class="fa fa-twitter"></i></h4>
+					<small>@irennee</small>
+				</div>
+			</div>
+			
+		 	<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.</p>
+		</div>
+		 
+		<div class="testimonial-col">
+			
+			<div class="user">
+				<img src="People 2.jpg">
+				<div class="user-info">
+					<h4>SOPHIA<i class="fa fa-twitter"></i></h4>
+					<small>@sophiaaa</small>
+				</div>
+			</div>
+			
+			<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. </p>
+		</div>
+		 
+		<div class="testimonial-col">
+			
+			<div class="user">
+				<img src="People 3.jpg">
+				<div class="user-info">
+					<h4>NICOLE<i class="fa fa-twitter"></i></h4>
+					<small>@nicollee</small>
+				</div>
+			</div>
+			
+			<p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.</p>
+		</div>
+	</div>
+	
+</section>
+	
+<!--footer-->
+	
+<section id="footer">
+	<img src="Footer img.png" class="footer-img">
+	<div class="title-text">
+		<p>CONTACT</p>
+		<h1>Visit Shop Today</h1>	
+	</div>
+	<div class="footer-row">
+		<div class="footer-left">
+			<h1>Opening Hours</h1>
+			<p><i class="fa fa-clock-o"></i>Monday to Friday - 9am to 9pm</p>
+			<p><i class="fa fa-clock-o"></i>Saturday to Sunday - 9am to 9pm</p>
+		</div>	
+		
+		<div class="footer-right">
+			<h1>Get in Touch</h1>
+			<p>9,Jalan Pasir,Bukit Perdana,BP Johor.<i class="fa fa-map-marker"></i></p>
+			<p>MoodMood@website.com<i class="fa fa-paper-plane"></i></p>
+			<p> 0197412879<i class="fa fa-phone"></i></p>
+		</div>
+		
+	</div>
+	
+	<div class="social-links">
+		<i class="fa fa-facebook"></i>
+		<i class="fa fa-instagram"></i>
+		<i class="fa fa-twitter"></i>
+		<i class="fa fa-youtube"></i>
+		<p>Copyright Easy Tutorials Youtube Channel</p>
+	</div>
+</section>
+	
+	
+	
+<!--Open and close nav menu-->
+	<script>
+		var menuBtn = document.getElementById("menuBtn")
+		var sideNav = document.getElementById("sideNav")
+		var menu = document.getElementById("menu") 
+		
+		sideNav.style.right = "-250px"
+		
+		menuBtn.onclick = function(){
+			if(sideNav.style.right == "-250px"){
+				sideNav.style.right="0";
+				menu.src = "close icon.png";
+			}
+			else{
+				sideNav.style.right="-250px";
+				menu.src = "menu icon.png"; 
+				
+			}
+		}
+			
+	</script>
+</body>
+</html>
